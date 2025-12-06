@@ -85,7 +85,6 @@ data/
 
 Step 1: Create virtual environment (optional but recommended)
 
-```bash
 python -m venv venv
 venv\Scripts\activate        # Windows
 
