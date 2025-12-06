@@ -15,12 +15,12 @@ This project automates **bug severity prediction** by analyzing the textual desc
 ---
 ### Technologies Used
 
-Python
-NLP
-Transformer Models
-Scikit-learn
-HuggingFace Transformers
-SHAP (Explainable AI)
+Python,
+NLP,
+Transformer Models,
+Scikit-learn,
+HuggingFace Transformers,
+SHAP (Explainable AI),
 Streamlit
 
 ##  Key Features
@@ -83,21 +83,21 @@ data/
 
 ##  Installation & Setup
 
-### Step 1: Create virtual environment (optional but recommended)
+Step 1: Create virtual environment (optional but recommended)
 
 ```bash
 python -m venv venv
 venv\Scripts\activate        # Windows
 
-### Step 2: Install dependencies
+Step 2: Install dependencies
 pip install -r requirements.txt
 
-### Step 3: Model Training
+Step 3: Model Training
 
 To train the bug severity prediction model:
 python src/train_model.py
 
-### Step 4: Run the Application
+Step 4: Run the Application
 
 To start the Streamlit application:
 streamlit run src/app.py
